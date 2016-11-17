@@ -1,0 +1,64 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+  background-image: url("../images/Murder_of_Caesar_1865.jpg");
+  background-size: cover;
+}
+p {
+  font-size: 1.7rem;
+}
+.form-cipher {
+  /*max-width: 330px;*/
+  /*padding: 15px;*/
+  margin: 0 auto;
+}
+.form-cipher .form-cipher-heading,
+.form-cipher .checkbox {
+  margin-bottom: 10px;
+}
+.form-cipher .form-cipher-heading {
+  color:#fff;
+}
+.form-cipher .form-control {
+  position: relative;
+  height: auto;
+  /*width: 100%;*/
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-cipher .form-control:focus {
+  z-index: 2;
+}
+.form-cipher input {
+  margin-bottom: 10px;
+}
+
+.cipher-results {
+  opacity: 0.8;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 20px 0;
+}
+.cipher-results h4 {
+  margin-bottom: 5px;
+}
+.cipher-results .alert {
+  opacity: 1;
+}
+.row > .results {
+  margin: 3px;
+}
+.form-cipher .select-box {
+  padding: 10px;
+  font-size: 16px;
+  position: relative;
+  height: 34px;
+}
+.form-cipher .select-box[disabled] {
+  color: #ccc;
+}
